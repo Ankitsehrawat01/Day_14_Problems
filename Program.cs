@@ -7,11 +7,17 @@ namespace Day_14_Practice_Problem
     {
         public static void Main(string[] args)
         {
-            Linkedlist a1 = new Linkedlist();
-            a1.AddNode(56);
-            a1.AddNode(30);
-            a1.AddNode(70);
-            a1.Display();
+            Stack_Ex stackobj = new Stack_Ex();
+            stackobj.Push(70);
+            stackobj.Push(30);
+            stackobj.Push(56);
+            stackobj.Display();
+
+            //Linkedlist a1 = new Linkedlist();
+            //a1.AddNode(56);
+            //a1.AddNode(30);
+            //a1.AddNode(70);
+            //a1.Display();
 
             //LinkedList<int> a1 = new LinkedList<int>();
             //a1.AddLast(56);
