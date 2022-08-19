@@ -37,5 +37,15 @@ namespace Day_14_Practice_Problem
                 temp = temp.Next;
             }
         }
+        public void Dequeue()
+        {
+            if (this.front == null)
+            {
+                Console.WriteLine("Queue is empty, deletion is not possible");
+                return;
+            }
+            Console.WriteLine("{0} is element dequeue ", this.front.data);
+            this.front = this.front.Next;
+        }
     }
 }

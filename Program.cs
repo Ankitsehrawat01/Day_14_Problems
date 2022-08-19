@@ -12,6 +12,8 @@ namespace Day_14_Practice_Problem
             queueobj.Enqueue(30);
             queueobj.Enqueue(70);
             queueobj.Display();
+            queueobj.Dequeue();
+            queueobj.Display();
 
             //Stack_Ex stackobj = new Stack_Ex();
             //stackobj.Push(70);
