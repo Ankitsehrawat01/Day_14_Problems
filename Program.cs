@@ -12,6 +12,13 @@ namespace Day_14_Practice_Problem
             stackobj.Push(30);
             stackobj.Push(56);
             stackobj.Display();
+            stackobj.Peek();
+            stackobj.Pop();
+            stackobj.Display();
+            stackobj.Peek();
+            stackobj.Pop();
+            stackobj.Display();
+            stackobj.IsEmpty();
 
             //Linkedlist a1 = new Linkedlist();
             //a1.AddNode(56);

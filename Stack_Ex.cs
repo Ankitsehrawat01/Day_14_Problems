@@ -32,5 +32,31 @@ namespace Day_14_Practice_Problem
                 temp = temp.Next;
             }
         }
+        public void Peek()
+        {
+            if (this.top == null)
+            {
+                Console.WriteLine("Stack is empty");
+            }
+            Console.WriteLine("{0} is the topmost element in the stack ", top.data);
+        }
+        public void Pop()
+        {
+            if (top == null)
+            {
+                Console.WriteLine("Stack is empty");
+            }
+            this.top = top.Next;
+        }
+        public void IsEmpty()
+        {
+            while (this.top != null)
+            {
+                Peek();
+                Pop();
+            }
+            Console.WriteLine("Stack is empty");
+        }
+
     }
 }
